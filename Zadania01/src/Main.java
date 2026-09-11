@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 void main() {
     IO.println(String.format("Hello and welcome!"));
 
@@ -51,4 +52,11 @@ void main() {
     int y = 2;
     double wynik =(double) x / y;
     System.out.println(wynik);
+
+    System.out.println("Podaj słowo:");
+    String malelitery = scanner.next();
+    malelitery = malelitery.toUpperCase();
+    System.out.println(malelitery);
+
+    
 }
