@@ -11,6 +11,7 @@ void main() {
     double liczba = 0.66;
 
     System.out.println("Mam na imię " + imie + ", mam " + (2026 - rokUrodzenia) + " lat i będę pisać maturę za " + liczba + " roku.");
+
     Scanner scanner = new Scanner(System.in);
     System.out.println("Podaj temperaturę w stopniach Celsjusza:");
     double stopnie = scanner.nextDouble();
@@ -18,4 +19,15 @@ void main() {
     double fahrenheit = 1.8 * stopnie + 32.0;
 
     System.out.println("Temperatura w Fahrenheitach: " + fahrenheit);
+
+    System.out.println("Podaj pierwszy bok:");
+    double a = scanner.nextDouble();
+
+    System.out.println("Podaj drugi bok:");
+    double b = scanner.nextDouble();
+
+    System.out.println("Podaj trzeci bok:");
+    double c = scanner.nextDouble();
+
+    System.out.println("Obwód trójkąta wynosi: " + (a + b + c));
 }
