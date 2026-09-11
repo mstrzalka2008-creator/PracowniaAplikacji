@@ -58,5 +58,10 @@ void main() {
     malelitery = malelitery.toUpperCase();
     System.out.println(malelitery);
 
-    
+    System.out.print("Podaj promień koła (liczba całkowita): ");
+    int promien = scanner.nextInt();
+
+    double pole = 3.14 * promien * promien;
+    System.out.println("Pole koła o promieniu " + promien + " wynosi: " + pole);
+
 }
