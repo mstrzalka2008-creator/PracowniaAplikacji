@@ -46,4 +46,9 @@ void main() {
     String slowo = scanner.next();
 
     System.out.println(slowo.length());
+
+    int x = 5;
+    int y = 2;
+    double wynik =(double) x / y;
+    System.out.println(wynik);
 }
