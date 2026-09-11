@@ -30,4 +30,15 @@ void main() {
     double c = scanner.nextDouble();
 
     System.out.println("Obwód trójkąta wynosi: " + (a + b + c));
+
+    System.out.println("Podaj pierwsze słowo:");
+    String pierwsze = scanner.next();
+
+    System.out.println("Podaj drugie słowo:");
+    String drugie = scanner.next();
+
+    System.out.println("Podaj trzecie słowo:");
+    String trzecie = scanner.next();
+
+    System.out.println(trzecie + "," + drugie + "," + pierwsze);
 }
