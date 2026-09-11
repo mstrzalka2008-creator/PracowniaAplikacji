@@ -41,4 +41,9 @@ void main() {
     String trzecie = scanner.next();
 
     System.out.println(trzecie + "," + drugie + "," + pierwsze);
+
+    System.out.println("Podaj słowo:");
+    String slowo = scanner.next();
+
+    System.out.println(slowo.length());
 }
