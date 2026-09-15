@@ -24,5 +24,16 @@ void main() {
         System.out.println("Z podanych boków nie można zbudować trójkąta.");
     }
 
+    System.out.print("Podaj pierwszą liczbę: ");
+    double pierwsza = scanner.nextDouble();
+    System.out.print("Podaj drugą liczbę: ");
+    double druga = scanner.nextDouble();
+
+    if (pierwsza > druga) {
+        System.out.println("Największa liczba to: " + pierwsza);
+    } else {
+        System.out.println("Największa liczba to: " + druga);
+    }
+
     
 }
